@@ -1,0 +1,670 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/kosmas/Prog/node/local/bin/npm', 'install' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/kosmas/Prog/elixir/pxblog',
+5 verbose install   [ 'babel-brunch',
+5 verbose install     'brunch',
+5 verbose install     'clean-css-brunch',
+5 verbose install     'css-brunch',
+5 verbose install     'javascript-brunch',
+5 verbose install     'uglify-js-brunch',
+5 verbose install     'phoenix',
+5 verbose install     'phoenix_html' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'clean-css-brunch@~1.8.0', null ]
+9 verbose cache add spec="clean-css-brunch@~1.8.0" args=["clean-css-brunch@~1.8.0",null]
+10 verbose parsed spec { raw: 'clean-css-brunch@~1.8.0',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'clean-css-brunch',
+10 verbose parsed spec   rawSpec: '~1.8.0',
+10 verbose parsed spec   spec: '>=1.8.0 <1.9.0',
+10 verbose parsed spec   type: 'range' }
+11 verbose parsed spec { raw: 'clean-css-brunch@~1.8.0',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'clean-css-brunch',
+11 verbose parsed spec   rawSpec: '~1.8.0',
+11 verbose parsed spec   spec: '>=1.8.0 <1.9.0',
+11 verbose parsed spec   type: 'range' }
+12 verbose addNamed [ 'clean-css-brunch', '>=1.8.0 <1.9.0' ]
+13 verbose addNamed [ null, '>=1.8.0 <1.9.0' ]
+14 verbose cache add [ 'css-brunch@~1.7.0', null ]
+15 verbose cache add spec="css-brunch@~1.7.0" args=["css-brunch@~1.7.0",null]
+16 verbose parsed spec { raw: 'css-brunch@~1.7.0',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'css-brunch',
+16 verbose parsed spec   rawSpec: '~1.7.0',
+16 verbose parsed spec   spec: '>=1.7.0 <1.8.0',
+16 verbose parsed spec   type: 'range' }
+17 verbose cache add [ 'javascript-brunch@~1.8.0', null ]
+18 verbose cache add spec="javascript-brunch@~1.8.0" args=["javascript-brunch@~1.8.0",null]
+19 verbose parsed spec { raw: 'javascript-brunch@~1.8.0',
+19 verbose parsed spec   scope: null,
+19 verbose parsed spec   name: 'javascript-brunch',
+19 verbose parsed spec   rawSpec: '~1.8.0',
+19 verbose parsed spec   spec: '>=1.8.0 <1.9.0',
+19 verbose parsed spec   type: 'range' }
+20 verbose cache add [ 'uglify-js-brunch@~1.7.0', null ]
+21 verbose cache add spec="uglify-js-brunch@~1.7.0" args=["uglify-js-brunch@~1.7.0",null]
+22 verbose parsed spec { raw: 'uglify-js-brunch@~1.7.0',
+22 verbose parsed spec   scope: null,
+22 verbose parsed spec   name: 'uglify-js-brunch',
+22 verbose parsed spec   rawSpec: '~1.7.0',
+22 verbose parsed spec   spec: '>=1.7.0 <1.8.0',
+22 verbose parsed spec   type: 'range' }
+23 verbose cache add [ 'phoenix@file:deps/phoenix', null ]
+24 verbose cache add spec="phoenix@file:deps/phoenix" args=["phoenix@file:deps/phoenix",null]
+25 verbose parsed spec { raw: 'phoenix@file:deps/phoenix',
+25 verbose parsed spec   scope: null,
+25 verbose parsed spec   name: 'phoenix',
+25 verbose parsed spec   rawSpec: 'file:deps/phoenix',
+25 verbose parsed spec   spec: 'deps/phoenix',
+25 verbose parsed spec   type: 'local' }
+26 verbose cache add [ 'phoenix_html@file:deps/phoenix_html', null ]
+27 verbose cache add spec="phoenix_html@file:deps/phoenix_html" args=["phoenix_html@file:deps/phoenix_html",null]
+28 verbose parsed spec { raw: 'phoenix_html@file:deps/phoenix_html',
+28 verbose parsed spec   scope: null,
+28 verbose parsed spec   name: 'phoenix_html',
+28 verbose parsed spec   rawSpec: 'file:deps/phoenix_html',
+28 verbose parsed spec   spec: 'deps/phoenix_html',
+28 verbose parsed spec   type: 'local' }
+29 verbose cache add [ 'babel-brunch@~6.0.0', null ]
+30 verbose cache add spec="babel-brunch@~6.0.0" args=["babel-brunch@~6.0.0",null]
+31 verbose parsed spec { raw: 'babel-brunch@~6.0.0',
+31 verbose parsed spec   scope: null,
+31 verbose parsed spec   name: 'babel-brunch',
+31 verbose parsed spec   rawSpec: '~6.0.0',
+31 verbose parsed spec   spec: '>=6.0.0 <6.1.0',
+31 verbose parsed spec   type: 'range' }
+32 silly lockFile 947e6dc3-clean-css-brunch-1-8-0-1-9-0 clean-css-brunch@>=1.8.0 <1.9.0
+33 verbose lock clean-css-brunch@>=1.8.0 <1.9.0 /home/kosmas/.npm/947e6dc3-clean-css-brunch-1-8-0-1-9-0.lock
+34 verbose parsed spec { raw: 'css-brunch@~1.7.0',
+34 verbose parsed spec   scope: null,
+34 verbose parsed spec   name: 'css-brunch',
+34 verbose parsed spec   rawSpec: '~1.7.0',
+34 verbose parsed spec   spec: '>=1.7.0 <1.8.0',
+34 verbose parsed spec   type: 'range' }
+35 verbose addNamed [ 'css-brunch', '>=1.7.0 <1.8.0' ]
+36 verbose addNamed [ null, '>=1.7.0 <1.8.0' ]
+37 silly lockFile 73dff3b0-css-brunch-1-7-0-1-8-0 css-brunch@>=1.7.0 <1.8.0
+38 verbose lock css-brunch@>=1.7.0 <1.8.0 /home/kosmas/.npm/73dff3b0-css-brunch-1-7-0-1-8-0.lock
+39 verbose parsed spec { raw: 'javascript-brunch@~1.8.0',
+39 verbose parsed spec   scope: null,
+39 verbose parsed spec   name: 'javascript-brunch',
+39 verbose parsed spec   rawSpec: '~1.8.0',
+39 verbose parsed spec   spec: '>=1.8.0 <1.9.0',
+39 verbose parsed spec   type: 'range' }
+40 verbose addNamed [ 'javascript-brunch', '>=1.8.0 <1.9.0' ]
+41 verbose addNamed [ null, '>=1.8.0 <1.9.0' ]
+42 silly lockFile f41b3266-javascript-brunch-1-8-0-1-9-0 javascript-brunch@>=1.8.0 <1.9.0
+43 verbose lock javascript-brunch@>=1.8.0 <1.9.0 /home/kosmas/.npm/f41b3266-javascript-brunch-1-8-0-1-9-0.lock
+44 verbose parsed spec { raw: 'uglify-js-brunch@~1.7.0',
+44 verbose parsed spec   scope: null,
+44 verbose parsed spec   name: 'uglify-js-brunch',
+44 verbose parsed spec   rawSpec: '~1.7.0',
+44 verbose parsed spec   spec: '>=1.7.0 <1.8.0',
+44 verbose parsed spec   type: 'range' }
+45 verbose addNamed [ 'uglify-js-brunch', '>=1.7.0 <1.8.0' ]
+46 verbose addNamed [ null, '>=1.7.0 <1.8.0' ]
+47 silly lockFile 7104d05a-uglify-js-brunch-1-7-0-1-8-0 uglify-js-brunch@>=1.7.0 <1.8.0
+48 verbose lock uglify-js-brunch@>=1.7.0 <1.8.0 /home/kosmas/.npm/7104d05a-uglify-js-brunch-1-7-0-1-8-0.lock
+49 verbose parsed spec { raw: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix',
+49 verbose parsed spec   scope: null,
+49 verbose parsed spec   name: null,
+49 verbose parsed spec   rawSpec: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix',
+49 verbose parsed spec   spec: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix',
+49 verbose parsed spec   type: 'local' }
+50 verbose parsed spec { raw: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix_html',
+50 verbose parsed spec   scope: null,
+50 verbose parsed spec   name: null,
+50 verbose parsed spec   rawSpec: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix_html',
+50 verbose parsed spec   spec: '/home/kosmas/Prog/elixir/pxblog/deps/phoenix_html',
+50 verbose parsed spec   type: 'local' }
+51 verbose parsed spec { raw: 'babel-brunch@~6.0.0',
+51 verbose parsed spec   scope: null,
+51 verbose parsed spec   name: 'babel-brunch',
+51 verbose parsed spec   rawSpec: '~6.0.0',
+51 verbose parsed spec   spec: '>=6.0.0 <6.1.0',
+51 verbose parsed spec   type: 'range' }
+52 verbose addNamed [ 'babel-brunch', '>=6.0.0 <6.1.0' ]
+53 verbose addNamed [ null, '>=6.0.0 <6.1.0' ]
+54 silly lockFile fed0712c-babel-brunch-6-0-0-6-1-0 babel-brunch@>=6.0.0 <6.1.0
+55 verbose lock babel-brunch@>=6.0.0 <6.1.0 /home/kosmas/.npm/fed0712c-babel-brunch-6-0-0-6-1-0.lock
+56 verbose cache add [ 'brunch@~2.1.3', null ]
+57 verbose cache add spec="brunch@~2.1.3" args=["brunch@~2.1.3",null]
+58 verbose parsed spec { raw: 'brunch@~2.1.3',
+58 verbose parsed spec   scope: null,
+58 verbose parsed spec   name: 'brunch',
+58 verbose parsed spec   rawSpec: '~2.1.3',
+58 verbose parsed spec   spec: '>=2.1.3 <2.2.0',
+58 verbose parsed spec   type: 'range' }
+59 verbose parsed spec { raw: 'brunch@~2.1.3',
+59 verbose parsed spec   scope: null,
+59 verbose parsed spec   name: 'brunch',
+59 verbose parsed spec   rawSpec: '~2.1.3',
+59 verbose parsed spec   spec: '>=2.1.3 <2.2.0',
+59 verbose parsed spec   type: 'range' }
+60 verbose addNamed [ 'brunch', '>=2.1.3 <2.2.0' ]
+61 verbose addNamed [ null, '>=2.1.3 <2.2.0' ]
+62 silly lockFile 9c8764ef-brunch-2-1-3-2-2-0 brunch@>=2.1.3 <2.2.0
+63 verbose lock brunch@>=2.1.3 <2.2.0 /home/kosmas/.npm/9c8764ef-brunch-2-1-3-2-2-0.lock
+64 silly addNameRange { name: 'clean-css-brunch',
+64 silly addNameRange   range: '>=1.8.0 <1.9.0',
+64 silly addNameRange   hasData: false }
+65 verbose mapToRegistry name clean-css-brunch
+66 verbose mapToRegistry uri https://registry.npmjs.org/clean-css-brunch
+67 silly addNameRange { name: 'css-brunch', range: '>=1.7.0 <1.8.0', hasData: false }
+68 verbose mapToRegistry name css-brunch
+69 verbose mapToRegistry uri https://registry.npmjs.org/css-brunch
+70 silly addNameRange { name: 'javascript-brunch',
+70 silly addNameRange   range: '>=1.8.0 <1.9.0',
+70 silly addNameRange   hasData: false }
+71 verbose mapToRegistry name javascript-brunch
+72 verbose mapToRegistry uri https://registry.npmjs.org/javascript-brunch
+73 silly addNameRange { name: 'uglify-js-brunch',
+73 silly addNameRange   range: '>=1.7.0 <1.8.0',
+73 silly addNameRange   hasData: false }
+74 verbose mapToRegistry name uglify-js-brunch
+75 verbose mapToRegistry uri https://registry.npmjs.org/uglify-js-brunch
+76 silly addNameRange { name: 'babel-brunch', range: '>=6.0.0 <6.1.0', hasData: false }
+77 verbose mapToRegistry name babel-brunch
+78 verbose mapToRegistry uri https://registry.npmjs.org/babel-brunch
+79 silly addNameRange { name: 'brunch', range: '>=2.1.3 <2.2.0', hasData: false }
+80 verbose mapToRegistry name brunch
+81 verbose mapToRegistry uri https://registry.npmjs.org/brunch
+82 verbose request on initialization, where is /css-brunch
+83 verbose request after pass 1, where is /css-brunch
+84 verbose request url raw /css-brunch
+85 verbose request resolving registry [ 'https://registry.npmjs.org/', './css-brunch' ]
+86 verbose request after pass 2, where is https://registry.npmjs.org/css-brunch
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 22:58:56
+89 verbose request id 1c2d43442cf60005
+90 verbose etag "7GB393VM0UVG7509HQNQU15GE"
+91 http request GET https://registry.npmjs.org/css-brunch
+92 verbose request on initialization, where is /clean-css-brunch
+93 verbose request after pass 1, where is /clean-css-brunch
+94 verbose request url raw /clean-css-brunch
+95 verbose request resolving registry [ 'https://registry.npmjs.org/', './clean-css-brunch' ]
+96 verbose request after pass 2, where is https://registry.npmjs.org/clean-css-brunch
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 22:58:56
+99 verbose etag "3QV68VUUOED144S6HCT4SPNHT"
+100 http request GET https://registry.npmjs.org/clean-css-brunch
+101 verbose request on initialization, where is /javascript-brunch
+102 verbose request after pass 1, where is /javascript-brunch
+103 verbose request url raw /javascript-brunch
+104 verbose request resolving registry [ 'https://registry.npmjs.org/', './javascript-brunch' ]
+105 verbose request after pass 2, where is https://registry.npmjs.org/javascript-brunch
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 22:58:56
+108 verbose etag "3BMJ7P1CYHS2AQISJPTKF5FGO"
+109 http request GET https://registry.npmjs.org/javascript-brunch
+110 verbose request on initialization, where is /babel-brunch
+111 verbose request after pass 1, where is /babel-brunch
+112 verbose request url raw /babel-brunch
+113 verbose request resolving registry [ 'https://registry.npmjs.org/', './babel-brunch' ]
+114 verbose request after pass 2, where is https://registry.npmjs.org/babel-brunch
+115 verbose request no auth needed
+116 info attempt registry request try #1 at 22:58:56
+117 verbose etag "B5D5WM0M2UIVWMR8L1XH8XD50"
+118 http request GET https://registry.npmjs.org/babel-brunch
+119 verbose request on initialization, where is /uglify-js-brunch
+120 verbose request after pass 1, where is /uglify-js-brunch
+121 verbose request url raw /uglify-js-brunch
+122 verbose request resolving registry [ 'https://registry.npmjs.org/', './uglify-js-brunch' ]
+123 verbose request after pass 2, where is https://registry.npmjs.org/uglify-js-brunch
+124 verbose request no auth needed
+125 info attempt registry request try #1 at 22:58:56
+126 verbose etag "E5N0FJHINOWGJGVIHR33ODJD4"
+127 http request GET https://registry.npmjs.org/uglify-js-brunch
+128 verbose request on initialization, where is /brunch
+129 verbose request after pass 1, where is /brunch
+130 verbose request url raw /brunch
+131 verbose request resolving registry [ 'https://registry.npmjs.org/', './brunch' ]
+132 verbose request after pass 2, where is https://registry.npmjs.org/brunch
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 22:58:56
+135 verbose etag "7C9P69N1IGL07M6ZLYF1LJL7B"
+136 http request GET https://registry.npmjs.org/brunch
+137 http 200 https://registry.npmjs.org/babel-brunch
+138 silly registry.get cb [ 200,
+138 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly registry.get     etag: '"5M4803D7H9K8KRL0WQVVC35Y6"',
+138 silly registry.get     'content-type': 'application/json',
+138 silly registry.get     'cache-control': 'max-age=300',
+138 silly registry.get     'content-length': '13177',
+138 silly registry.get     'accept-ranges': 'bytes',
+138 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:55 GMT',
+138 silly registry.get     via: '1.1 varnish',
+138 silly registry.get     age: '0',
+138 silly registry.get     connection: 'keep-alive',
+138 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+138 silly registry.get     'x-cache': 'MISS',
+138 silly registry.get     'x-cache-hits': '0',
+138 silly registry.get     'x-timer': 'S1460840335.260812,VS0,VE105',
+138 silly registry.get     vary: 'Accept-Encoding' } ]
+139 silly addNameRange number 2 { name: 'babel-brunch', range: '>=6.0.0 <6.1.0', hasData: true }
+140 silly addNameRange versions [ 'babel-brunch',
+140 silly addNameRange   [ '4.0.0',
+140 silly addNameRange     '5.0.0',
+140 silly addNameRange     '5.0.1',
+140 silly addNameRange     '5.1.0',
+140 silly addNameRange     '5.1.1',
+140 silly addNameRange     '5.1.2',
+140 silly addNameRange     '6.0.0',
+140 silly addNameRange     '6.0.1',
+140 silly addNameRange     '6.0.2' ] ]
+141 verbose addNamed [ 'babel-brunch', '6.0.2' ]
+142 verbose addNamed [ '6.0.2', '6.0.2' ]
+143 silly lockFile b9f0ca46-babel-brunch-6-0-2 babel-brunch@6.0.2
+144 verbose lock babel-brunch@6.0.2 /home/kosmas/.npm/b9f0ca46-babel-brunch-6-0-2.lock
+145 silly lockFile 03b28784-el-brunch-babel-brunch-6-0-2-tgz https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz
+146 verbose lock https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz /home/kosmas/.npm/03b28784-el-brunch-babel-brunch-6-0-2-tgz.lock
+147 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz',
+147 verbose addRemoteTarball   '51b11f731c9b360674c560c56c125501f3bcd02d' ]
+148 info retry fetch attempt 1 at 22:58:57
+149 info attempt registry request try #1 at 22:58:57
+150 http fetch GET https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz
+151 http 200 https://registry.npmjs.org/javascript-brunch
+152 silly registry.get cb [ 200,
+152 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+152 silly registry.get     etag: '"29I869TOMAOKBX6F9X34ADN83"',
+152 silly registry.get     'content-type': 'application/json',
+152 silly registry.get     'content-encoding': 'gzip',
+152 silly registry.get     'cache-control': 'max-age=300',
+152 silly registry.get     'content-length': '3117',
+152 silly registry.get     'accept-ranges': 'bytes',
+152 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:55 GMT',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     age: '0',
+152 silly registry.get     connection: 'keep-alive',
+152 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+152 silly registry.get     'x-cache': 'MISS',
+152 silly registry.get     'x-cache-hits': '0',
+152 silly registry.get     'x-timer': 'S1460840335.260530,VS0,VE187',
+152 silly registry.get     vary: 'Accept-Encoding' } ]
+153 http 200 https://registry.npmjs.org/css-brunch
+154 silly registry.get cb [ 200,
+154 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly registry.get     etag: '"4YX2L1NJVSI2XGV2B6L7CKNYH"',
+154 silly registry.get     'content-type': 'application/json',
+154 silly registry.get     'content-encoding': 'gzip',
+154 silly registry.get     'cache-control': 'max-age=300',
+154 silly registry.get     'content-length': '3558',
+154 silly registry.get     'accept-ranges': 'bytes',
+154 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:55 GMT',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     age: '0',
+154 silly registry.get     connection: 'keep-alive',
+154 silly registry.get     'x-served-by': 'cache-lcy1126-LCY',
+154 silly registry.get     'x-cache': 'MISS',
+154 silly registry.get     'x-cache-hits': '0',
+154 silly registry.get     'x-timer': 'S1460840335.259007,VS0,VE190',
+154 silly registry.get     vary: 'Accept-Encoding' } ]
+155 http 200 https://registry.npmjs.org/uglify-js-brunch
+156 silly registry.get cb [ 200,
+156 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 silly registry.get     etag: '"13FU9J8Y5W216UTLU2ZRS4T4M"',
+156 silly registry.get     'content-type': 'application/json',
+156 silly registry.get     'content-encoding': 'gzip',
+156 silly registry.get     'cache-control': 'max-age=300',
+156 silly registry.get     'content-length': '3932',
+156 silly registry.get     'accept-ranges': 'bytes',
+156 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:55 GMT',
+156 silly registry.get     via: '1.1 varnish',
+156 silly registry.get     age: '0',
+156 silly registry.get     connection: 'keep-alive',
+156 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+156 silly registry.get     'x-cache': 'MISS',
+156 silly registry.get     'x-cache-hits': '0',
+156 silly registry.get     'x-timer': 'S1460840335.260824,VS0,VE189',
+156 silly registry.get     vary: 'Accept-Encoding' } ]
+157 silly addNameRange number 2 { name: 'javascript-brunch',
+157 silly addNameRange   range: '>=1.8.0 <1.9.0',
+157 silly addNameRange   hasData: true }
+158 silly addNameRange versions [ 'javascript-brunch',
+158 silly addNameRange   [ '1.0.0',
+158 silly addNameRange     '1.1.0',
+158 silly addNameRange     '1.1.1',
+158 silly addNameRange     '1.3.0',
+158 silly addNameRange     '1.5.0',
+158 silly addNameRange     '1.5.1',
+158 silly addNameRange     '1.6.0',
+158 silly addNameRange     '1.7.0',
+158 silly addNameRange     '1.7.1',
+158 silly addNameRange     '1.8.0',
+158 silly addNameRange     '2.0.0' ] ]
+159 verbose addNamed [ 'javascript-brunch', '1.8.0' ]
+160 verbose addNamed [ '1.8.0', '1.8.0' ]
+161 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+162 verbose lock javascript-brunch@1.8.0 /home/kosmas/.npm/a03396de-javascript-brunch-1-8-0.lock
+163 silly addNameRange number 2 { name: 'uglify-js-brunch',
+163 silly addNameRange   range: '>=1.7.0 <1.8.0',
+163 silly addNameRange   hasData: true }
+164 silly addNameRange versions [ 'uglify-js-brunch',
+164 silly addNameRange   [ '1.0.0',
+164 silly addNameRange     '1.1.0',
+164 silly addNameRange     '1.1.1',
+164 silly addNameRange     '1.3.0',
+164 silly addNameRange     '1.3.1',
+164 silly addNameRange     '1.5.0',
+164 silly addNameRange     '1.5.1',
+164 silly addNameRange     '1.7.0',
+164 silly addNameRange     '1.7.1',
+164 silly addNameRange     '1.7.2',
+164 silly addNameRange     '1.7.3',
+164 silly addNameRange     '1.7.4',
+164 silly addNameRange     '1.7.5',
+164 silly addNameRange     '1.7.6',
+164 silly addNameRange     '1.7.7',
+164 silly addNameRange     '1.7.8',
+164 silly addNameRange     '2.0.0',
+164 silly addNameRange     '2.0.1' ] ]
+165 verbose addNamed [ 'uglify-js-brunch', '1.7.8' ]
+166 verbose addNamed [ '1.7.8', '1.7.8' ]
+167 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+168 verbose lock uglify-js-brunch@1.7.8 /home/kosmas/.npm/cd6b0dc2-uglify-js-brunch-1-7-8.lock
+169 http fetch 200 https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz
+170 silly fetchAndShaCheck shasum 51b11f731c9b360674c560c56c125501f3bcd02d
+171 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+172 verbose lock https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz /home/kosmas/.npm/ff384f7a-unch-javascript-brunch-1-8-0-tgz.lock
+173 verbose addRemoteTarball [ 'https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz',
+173 verbose addRemoteTarball   '9d01b681f9e4f66bbe51cc1dbb70325ef3d831a5' ]
+174 info retry fetch attempt 1 at 22:58:57
+175 info attempt registry request try #1 at 22:58:57
+176 http fetch GET https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+177 silly addNameRange number 2 { name: 'css-brunch', range: '>=1.7.0 <1.8.0', hasData: true }
+178 silly addNameRange versions [ 'css-brunch',
+178 silly addNameRange   [ '1.0.0',
+178 silly addNameRange     '1.1.0',
+178 silly addNameRange     '1.1.1',
+178 silly addNameRange     '1.3.0',
+178 silly addNameRange     '1.5.0',
+178 silly addNameRange     '1.5.1',
+178 silly addNameRange     '1.6.0',
+178 silly addNameRange     '1.7.0',
+178 silly addNameRange     '2.0.0',
+178 silly addNameRange     '2.6.0',
+178 silly addNameRange     '2.6.1' ] ]
+179 verbose addNamed [ 'css-brunch', '1.7.0' ]
+180 verbose addNamed [ '1.7.0', '1.7.0' ]
+181 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+182 verbose lock css-brunch@1.7.0 /home/kosmas/.npm/c3390392-css-brunch-1-7-0.lock
+183 silly lockFile 03b28784-el-brunch-babel-brunch-6-0-2-tgz https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz
+184 silly lockFile 03b28784-el-brunch-babel-brunch-6-0-2-tgz https://registry.npmjs.org/babel-brunch/-/babel-brunch-6.0.2.tgz
+185 silly lockFile b9f0ca46-babel-brunch-6-0-2 babel-brunch@6.0.2
+186 silly lockFile b9f0ca46-babel-brunch-6-0-2 babel-brunch@6.0.2
+187 silly lockFile fed0712c-babel-brunch-6-0-0-6-1-0 babel-brunch@>=6.0.0 <6.1.0
+188 silly lockFile fed0712c-babel-brunch-6-0-0-6-1-0 babel-brunch@>=6.0.0 <6.1.0
+189 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+190 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+191 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+192 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+193 silly lockFile 7104d05a-uglify-js-brunch-1-7-0-1-8-0 uglify-js-brunch@>=1.7.0 <1.8.0
+194 silly lockFile 7104d05a-uglify-js-brunch-1-7-0-1-8-0 uglify-js-brunch@>=1.7.0 <1.8.0
+195 silly lockFile 73dff3b0-css-brunch-1-7-0-1-8-0 css-brunch@>=1.7.0 <1.8.0
+196 silly lockFile 73dff3b0-css-brunch-1-7-0-1-8-0 css-brunch@>=1.7.0 <1.8.0
+197 http fetch 200 https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+198 silly fetchAndShaCheck shasum 9d01b681f9e4f66bbe51cc1dbb70325ef3d831a5
+199 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+200 silly lockFile ff384f7a-unch-javascript-brunch-1-8-0-tgz https://registry.npmjs.org/javascript-brunch/-/javascript-brunch-1.8.0.tgz
+201 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+202 silly lockFile a03396de-javascript-brunch-1-8-0 javascript-brunch@1.8.0
+203 silly lockFile f41b3266-javascript-brunch-1-8-0-1-9-0 javascript-brunch@>=1.8.0 <1.9.0
+204 silly lockFile f41b3266-javascript-brunch-1-8-0-1-9-0 javascript-brunch@>=1.8.0 <1.9.0
+205 http 200 https://registry.npmjs.org/clean-css-brunch
+206 silly registry.get cb [ 200,
+206 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+206 silly registry.get     etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+206 silly registry.get     'content-type': 'application/json',
+206 silly registry.get     'cache-control': 'max-age=300',
+206 silly registry.get     'content-length': '16141',
+206 silly registry.get     'accept-ranges': 'bytes',
+206 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:55 GMT',
+206 silly registry.get     via: '1.1 varnish',
+206 silly registry.get     age: '0',
+206 silly registry.get     connection: 'keep-alive',
+206 silly registry.get     'x-served-by': 'cache-lcy1122-LCY',
+206 silly registry.get     'x-cache': 'MISS',
+206 silly registry.get     'x-cache-hits': '0',
+206 silly registry.get     'x-timer': 'S1460840335.253145,VS0,VE450',
+206 silly registry.get     vary: 'Accept-Encoding' } ]
+207 silly addNameRange number 2 { name: 'clean-css-brunch',
+207 silly addNameRange   range: '>=1.8.0 <1.9.0',
+207 silly addNameRange   hasData: true }
+208 silly addNameRange versions [ 'clean-css-brunch',
+208 silly addNameRange   [ '1.0.0',
+208 silly addNameRange     '1.1.0',
+208 silly addNameRange     '1.1.1',
+208 silly addNameRange     '1.3.0',
+208 silly addNameRange     '1.4.0',
+208 silly addNameRange     '1.5.0',
+208 silly addNameRange     '1.5.1',
+208 silly addNameRange     '1.6.0',
+208 silly addNameRange     '1.7.0',
+208 silly addNameRange     '1.7.1',
+208 silly addNameRange     '1.7.2',
+208 silly addNameRange     '1.8.0',
+208 silly addNameRange     '2.0.0' ] ]
+209 verbose addNamed [ 'clean-css-brunch', '1.8.0' ]
+210 verbose addNamed [ '1.8.0', '1.8.0' ]
+211 silly lockFile ad3a297f-clean-css-brunch-1-8-0 clean-css-brunch@1.8.0
+212 verbose lock clean-css-brunch@1.8.0 /home/kosmas/.npm/ad3a297f-clean-css-brunch-1-8-0.lock
+213 silly lockFile 356de468-runch-clean-css-brunch-1-8-0-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz
+214 verbose lock https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz /home/kosmas/.npm/356de468-runch-clean-css-brunch-1-8-0-tgz.lock
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz',
+215 verbose addRemoteTarball   'efea5ac3e2a99d08155c6c14e1eef466757b0984' ]
+216 info retry fetch attempt 1 at 22:58:57
+217 info attempt registry request try #1 at 22:58:57
+218 http fetch GET https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz
+219 http fetch 200 https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz
+220 silly fetchAndShaCheck shasum efea5ac3e2a99d08155c6c14e1eef466757b0984
+221 silly lockFile 356de468-runch-clean-css-brunch-1-8-0-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz
+222 silly lockFile 356de468-runch-clean-css-brunch-1-8-0-tgz https://registry.npmjs.org/clean-css-brunch/-/clean-css-brunch-1.8.0.tgz
+223 silly lockFile ad3a297f-clean-css-brunch-1-8-0 clean-css-brunch@1.8.0
+224 silly lockFile ad3a297f-clean-css-brunch-1-8-0 clean-css-brunch@1.8.0
+225 silly lockFile 947e6dc3-clean-css-brunch-1-8-0-1-9-0 clean-css-brunch@>=1.8.0 <1.9.0
+226 silly lockFile 947e6dc3-clean-css-brunch-1-8-0-1-9-0 clean-css-brunch@>=1.8.0 <1.9.0
+227 http 200 https://registry.npmjs.org/brunch
+228 silly registry.get cb [ 200,
+228 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+228 silly registry.get     etag: '"7A3D43MLTHEX6VCZOHAZ90A79"',
+228 silly registry.get     'content-type': 'application/json',
+228 silly registry.get     'content-encoding': 'gzip',
+228 silly registry.get     'cache-control': 'max-age=300',
+228 silly registry.get     'content-length': '23415',
+228 silly registry.get     'accept-ranges': 'bytes',
+228 silly registry.get     date: 'Sat, 16 Apr 2016 20:58:56 GMT',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     age: '0',
+228 silly registry.get     connection: 'keep-alive',
+228 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+228 silly registry.get     'x-cache': 'MISS',
+228 silly registry.get     'x-cache-hits': '0',
+228 silly registry.get     'x-timer': 'S1460840335.400011,VS0,VE951',
+228 silly registry.get     vary: 'Accept-Encoding' } ]
+229 silly addNameRange number 2 { name: 'brunch', range: '>=2.1.3 <2.2.0', hasData: true }
+230 silly addNameRange versions [ 'brunch',
+230 silly addNameRange   [ '0.0.1',
+230 silly addNameRange     '0.0.2',
+230 silly addNameRange     '0.0.3',
+230 silly addNameRange     '0.0.4',
+230 silly addNameRange     '0.0.5',
+230 silly addNameRange     '0.0.6',
+230 silly addNameRange     '0.0.7',
+230 silly addNameRange     '0.0.8',
+230 silly addNameRange     '0.1.0',
+230 silly addNameRange     '0.1.1',
+230 silly addNameRange     '0.1.3',
+230 silly addNameRange     '0.1.4',
+230 silly addNameRange     '0.1.5',
+230 silly addNameRange     '0.1.6',
+230 silly addNameRange     '0.1.7',
+230 silly addNameRange     '0.1.8',
+230 silly addNameRange     '0.1.9',
+230 silly addNameRange     '0.2.0',
+230 silly addNameRange     '0.2.1',
+230 silly addNameRange     '0.2.2',
+230 silly addNameRange     '0.2.3',
+230 silly addNameRange     '0.2.4',
+230 silly addNameRange     '0.2.6',
+230 silly addNameRange     '0.2.7',
+230 silly addNameRange     '0.2.8',
+230 silly addNameRange     '0.3.0',
+230 silly addNameRange     '0.3.1',
+230 silly addNameRange     '0.3.2',
+230 silly addNameRange     '0.3.4',
+230 silly addNameRange     '0.3.5',
+230 silly addNameRange     '0.3.6',
+230 silly addNameRange     '0.3.7',
+230 silly addNameRange     '0.4.0',
+230 silly addNameRange     '0.4.1',
+230 silly addNameRange     '0.4.2',
+230 silly addNameRange     '0.4.3',
+230 silly addNameRange     '0.4.4',
+230 silly addNameRange     '0.4.5',
+230 silly addNameRange     '0.5.1',
+230 silly addNameRange     '0.5.2',
+230 silly addNameRange     '0.5.3',
+230 silly addNameRange     '0.5.4',
+230 silly addNameRange     '0.5.5',
+230 silly addNameRange     '0.5.6',
+230 silly addNameRange     '0.6.0',
+230 silly addNameRange     '0.6.1',
+230 silly addNameRange     '0.6.2',
+230 silly addNameRange     '0.7.0',
+230 silly addNameRange     '0.7.1',
+230 silly addNameRange     '0.7.2',
+230 silly addNameRange     '0.7.3',
+230 silly addNameRange     '0.7.4',
+230 silly addNameRange     '0.8.0',
+230 silly addNameRange     '0.8.1',
+230 silly addNameRange     '0.9.0-beta1',
+230 silly addNameRange     '0.9.0',
+230 silly addNameRange     '0.9.1',
+230 silly addNameRange     '1.0.0',
+230 silly addNameRange     '1.0.1',
+230 silly addNameRange     '1.0.2',
+230 silly addNameRange     '1.0.3',
+230 silly addNameRange     '1.1.0',
+230 silly addNameRange     '1.1.1',
+230 silly addNameRange     '1.1.2',
+230 silly addNameRange     '1.2.0',
+230 silly addNameRange     '1.2.1',
+230 silly addNameRange     '1.2.2',
+230 silly addNameRange     '1.3.0',
+230 silly addNameRange     '1.3.1',
+230 silly addNameRange     '1.3.2',
+230 silly addNameRange     '1.3.3',
+230 silly addNameRange     '1.3.4',
+230 silly addNameRange     '1.4.0',
+230 silly addNameRange     '1.4.1',
+230 silly addNameRange     '1.4.2',
+230 silly addNameRange     '1.4.3',
+230 silly addNameRange     '1.4.4',
+230 silly addNameRange     '1.4.5',
+230 silly addNameRange     '1.5.0',
+230 silly addNameRange     '1.5.1',
+230 silly addNameRange     '1.5.2',
+230 silly addNameRange     '1.5.3',
+230 silly addNameRange     '1.5.4',
+230 silly addNameRange     '1.6.0',
+230 silly addNameRange     '1.6.1',
+230 silly addNameRange     '1.6.2',
+230 silly addNameRange     '1.6.3',
+230 silly addNameRange     '1.6.4',
+230 silly addNameRange     '1.6.5',
+230 silly addNameRange     '1.6.6',
+230 silly addNameRange     '1.6.7',
+230 silly addNameRange     '1.7.0',
+230 silly addNameRange     '1.7.1',
+230 silly addNameRange     '1.7.2',
+230 silly addNameRange     '1.7.3',
+230 silly addNameRange     '1.7.4',
+230 silly addNameRange     '1.7.5',
+230 silly addNameRange     '1.7.6',
+230 silly addNameRange     '1.7.7',
+230 silly addNameRange     '1.7.8',
+230 silly addNameRange     '1.7.9',
+230 silly addNameRange     '1.7.10',
+230 silly addNameRange     '1.7.12',
+230 silly addNameRange     '1.7.13',
+230 silly addNameRange     '1.7.14',
+230 silly addNameRange     '1.7.15',
+230 silly addNameRange     '1.7.16',
+230 silly addNameRange     '1.7.17',
+230 silly addNameRange     '1.7.18',
+230 silly addNameRange     '1.7.19',
+230 silly addNameRange     '1.7.20',
+230 silly addNameRange     '1.8.0',
+230 silly addNameRange     '1.8.1',
+230 silly addNameRange     '1.8.2',
+230 silly addNameRange     '1.8.3',
+230 silly addNameRange     '1.8.4',
+230 silly addNameRange     '1.8.5',
+230 silly addNameRange     '2.0.0',
+230 silly addNameRange     '2.0.1',
+230 silly addNameRange     '2.0.2',
+230 silly addNameRange     '2.0.3',
+230 silly addNameRange     '2.0.4',
+230 silly addNameRange     '2.1.0',
+230 silly addNameRange     '2.1.1',
+230 silly addNameRange     '2.1.2',
+230 silly addNameRange     '2.1.3',
+230 silly addNameRange     '2.2.0',
+230 silly addNameRange     '2.2.1',
+230 silly addNameRange     '2.2.2',
+230 silly addNameRange     '2.2.3',
+230 silly addNameRange     '2.3.0',
+230 silly addNameRange     '2.3.1',
+230 silly addNameRange     '2.3.2',
+230 silly addNameRange     '2.4.0',
+230 silly addNameRange     '2.4.1',
+230 silly addNameRange     '2.4.2',
+230 silly addNameRange     '2.5.0-pre',
+230 silly addNameRange     '2.5.0',
+230 silly addNameRange     '2.5.1',
+230 silly addNameRange     '2.5.2',
+230 silly addNameRange     '2.5.3',
+230 silly addNameRange     '2.6.0',
+230 silly addNameRange     '2.6.1',
+230 silly addNameRange     '2.6.2',
+230 silly addNameRange     '2.6.3',
+230 silly addNameRange     '2.6.4',
+230 silly addNameRange     '2.6.5',
+230 silly addNameRange     '2.6.6' ] ]
+231 verbose addNamed [ 'brunch', '2.1.3' ]
+232 verbose addNamed [ '2.1.3', '2.1.3' ]
+233 silly lockFile deb19202-brunch-2-1-3 brunch@2.1.3
+234 verbose lock brunch@2.1.3 /home/kosmas/.npm/deb19202-brunch-2-1-3.lock
+235 silly lockFile 33124ba8-pmjs-org-brunch-brunch-2-1-3-tgz https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz
+236 verbose lock https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz /home/kosmas/.npm/33124ba8-pmjs-org-brunch-brunch-2-1-3-tgz.lock
+237 verbose addRemoteTarball [ 'https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz',
+237 verbose addRemoteTarball   'f695d23db6dd192e3d01a980fe57d5542a3d89d1' ]
+238 info retry fetch attempt 1 at 22:58:58
+239 info attempt registry request try #1 at 22:58:58
+240 http fetch GET https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz
+241 http fetch 200 https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz
+242 silly fetchAndShaCheck shasum f695d23db6dd192e3d01a980fe57d5542a3d89d1
+243 silly lockFile 33124ba8-pmjs-org-brunch-brunch-2-1-3-tgz https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz
+244 silly lockFile 33124ba8-pmjs-org-brunch-brunch-2-1-3-tgz https://registry.npmjs.org/brunch/-/brunch-2.1.3.tgz
+245 silly lockFile deb19202-brunch-2-1-3 brunch@2.1.3
+246 silly lockFile deb19202-brunch-2-1-3 brunch@2.1.3
+247 silly lockFile 9c8764ef-brunch-2-1-3-2-2-0 brunch@>=2.1.3 <2.2.0
+248 silly lockFile 9c8764ef-brunch-2-1-3-2-2-0 brunch@>=2.1.3 <2.2.0
+249 verbose stack Error: couldn't figure out how to install /home/kosmas/Prog/elixir/pxblog/deps/phoenix
+249 verbose stack     at addNonLocal (/home/kosmas/Prog/node/local/lib/node_modules/npm/lib/cache.js:309:12)
+249 verbose stack     at /home/kosmas/Prog/node/local/lib/node_modules/npm/lib/cache.js:278:20
+249 verbose stack     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+250 verbose cwd /home/kosmas/Prog/elixir/pxblog
+251 error Linux 3.13.0-74-generic
+252 error argv "node" "/home/kosmas/Prog/node/local/bin/npm" "install"
+253 error node v0.10.32
+254 error npm  v2.0.0
+255 error couldn't figure out how to install /home/kosmas/Prog/elixir/pxblog/deps/phoenix
+256 error If you need help, you may report this error at:
+256 error     <http://github.com/npm/npm/issues>
+257 verbose exit [ 1, true ]
